@@ -11,6 +11,19 @@
         <h1>Este es nuestro taller de Precios y Descuentos</h1>
         <p>Bienvenido al taller número 2 de nuestro curso</p>
     </header>
-    
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+        <form>
+            <label for="InputPrice">Escribe el precio de tu producto</label>
+            <input id="InputPrice" type="number"/>
+
+            <label for="InputDiscount">Escribe el descuento de tu producto</label>
+            <input id="InputDiscount" type="number"/>
+
+            <button type="button" onclick="onClickButtonPriceDiscount()">Calcular el precio final</button>
+            <p id="ResultPrice"></p>
+        </form>
+    </section>
+    <script src="./descuentos.js"></script>
 </body>
 </html>
