@@ -28,7 +28,7 @@ const discountValue = inputDiscount.value;
 
 const precioConDesceunto = calcularPrecioConDescuento(priceValue, discountValue);
 
-const resultP = document.getElementById("ResultPrice");
+const resultP = document.getElementById("ResultPrice").innerText= "Test";
 
 resultP.innerText = "Tu precio con descuento es de: $" + precioConDesceunto;
 
